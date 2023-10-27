@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Kanit:wght@300;400;800;900&display=swap");
+body {
+  background-image: url(https://w.forfun.com/fetch/56/56e70730f2e025a9910fbd7c94b7c9bd.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.now {
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.clock {
+  display: flex;
+  margin: 0 auto;
+  width: 350px;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 90px;
+  color: #fff;
+  font-family: "Fjalla One", sans-serif;
+  font-family: "Kanit", sans-serif;
+}
+.clock div {
+  width: 100px;
+}
+.date{
+  color: #fff;
+  gap: 0 10px;
+  font-size: 20px;
+  font-family: "Fjalla One", sans-serif;
+  font-family: "Kanit", sans-serif;
+  justify-content: center;
+  display: flex;
+}
